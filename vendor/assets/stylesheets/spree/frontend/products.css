@@ -1,0 +1,44 @@
+span.price.selling.lead {
+  display: inline-flex;
+  margin-bottom: 8px;
+  float: left;
+  width: 100%;
+}
+
+span.info {
+  text-align: left;
+  width: 100%;
+  font-family:  Raleway;
+  font-size: smaller;
+  font-weight: 600;
+}
+
+p.price {
+  text-align: right;
+  width: 100%;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 600;
+}
+
+.panel.panel-default {
+  border: none;
+}
+
+.panel-footer {
+  background: transparent;
+  padding: 0;
+}
+
+hr {
+  margin-bottom: 2px;
+  margin-top: 0;
+  width: 100%;
+  border-top: 2px solid black;
+}
+
+a.btn.btn-primary {
+  border-radius: 0px;
+  font-family:  'Source Code Pro', monospace;
+  background-color: black;
+  color: grey;
+}
