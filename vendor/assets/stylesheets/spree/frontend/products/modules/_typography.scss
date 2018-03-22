@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700,700i|Source+Code+Pro:400,500');
 @import "../../base";
 // variables
-$btn-max-height: 40px;
+$btn-max-height: 30px;
 $font-1: "Raleway";
 $font-2: "Source Code Pro";
 $font-medium: medium;
@@ -11,8 +11,9 @@ $font-1-bold: 700;
 $font-2-bold: 500;
 $font-left: left;
 $font-right: right;
+$font-large: 2.1em;
 $font-small: 1.1em;
-$font-smallest: 0.8em;
+$font-smallest: 0.5em;
 $font-spacing: 1.2px;
-$text-indent: 10%;
 $line-height: 3em;
+$text-indent: 10%;

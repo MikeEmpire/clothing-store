@@ -27,8 +27,13 @@ td {
   border-top: none !important;
 }
 
+input#quantity {
+  margin: $dbl-margin 0;
+}
+
 .panel.panel-default {
   border: none;
+  margin-bottom: 70%;
 }
 
 .panel-footer {
