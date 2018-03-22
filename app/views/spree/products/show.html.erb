@@ -19,10 +19,6 @@
           </div>
         </div>
 
-        <div data-hook="product_properties">
-          <%= render partial: 'properties' %>
-        </div>
-
         <div data-hook="promotions">
           <%= render partial: 'promotions' %>
         </div>
@@ -41,6 +37,10 @@
           <div id="cart-form" data-hook="cart_form">
             <%= render partial: 'cart_form' %>
           </div>
+        </div>
+        
+        <div data-hook="product_properties">
+          <%= render partial: 'properties' %>
         </div>
 
         <div id="taxon-crumbs" class=" five " data-hook="product_taxons">

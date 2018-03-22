@@ -1,5 +1,7 @@
 span.price.selling.lead {
   display: inline-flex;
+  font-family: Source Code Pro;
+  font-weight: 500;
   margin-bottom: 8px;
   float: left;
   width: 100%;
