@@ -2,10 +2,22 @@
 @import "../../base";;
 $radius: 0px;
 
-
 a.btn.btn-primary {
-  border-radius: $radius;
-  font-family:  $font-1;
   background-color: black;
-  color: $color-2;
+  border-radius: $radius;
+  border: none;
+  max-height: $btn-max-height;
+  color: $color-lightest;
+  font-family:  $font-2;
+  font-size: $font-smallest;
+  letter-spacing: $font-spacing;
+  text-transform: capitalize;
+}
+
+.input-group-btn {
+  font-size: $font-smallest;
+}
+
+.btn-success {
+  @extend a.btn.btn-primary;
 }

@@ -1,10 +1,30 @@
+@import "../modules/typography";;
 @import "../../base";
+
+.well {
+  background: $bg-1;
+  border: none;
+  font-family: $font-2;
+  font-weight: $font-2-bold;
+  line-height: $line-height;
+  padding: 19px 0;
+  text-indent: $text-indent;
+}
 
 .table {
   width: $half-width;
   max-width: $full-width;
   margin-bottom: 20px;
   clear: left;
+}
+
+tr {
+  background-color: $bg-1 !important;
+  font-family: $font-1;
+}
+
+td {
+  border-top: none !important;
 }
 
 .panel.panel-default {

@@ -1,11 +1,7 @@
-@import "./products/partials/buttons";
-@import "./products/partials/buttons";;
-@import "./products/partials/images";
-@import "./products/partials/text";
-
+@import "./base";
 hr {
   margin-bottom: 2px;
   margin-top: 0;
-  width: 100%;
+  width: $full-width;
   border-top: 2px solid black;
 }

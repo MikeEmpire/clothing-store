@@ -2,11 +2,17 @@
 @import "../modules/typography";;
 @import "../../base";
 
+h1.product-title {
+  font-family: $font-2;
+  font-weight: $font-2-bold;
+}
+
 span.price.selling.lead {
   display: inline-flex;
   font-family: $font-2;
   font-weight: $font-2-bold;
-  margin-bottom: 8px;
+  margin-bottom: $margin-bottom-top;
+  margin-top: $margin-bottom-top;
   float: $font-left;
   width: $full-width;
 }
@@ -16,7 +22,7 @@ span.info {
   width: $full-width;
   font-family:  $font-2;
   font-size: $font-small;
-  font-weight: $font-1-bold;
+  font-weight: $font-2-bold;
 }
 
 p.price {
@@ -24,4 +30,9 @@ p.price {
   width: $full-width;
   font-family: $font-2;
   font-weight: $font-2-bold;
+}
+
+h3.product-section-title {
+  font-size: $font-medium;
+  @extend h1.product-title;
 }
