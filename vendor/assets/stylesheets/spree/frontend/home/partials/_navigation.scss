@@ -1,0 +1,24 @@
+@import "../../base";
+@import "../../products/modules/typography";
+
+#main-nav-bar {
+  text-align: center;
+}
+
+ul.nav.navbar-nav {
+  display: inline-block;
+  float: none;
+}
+
+.nav > li {
+  display: inline-block;
+}
+
+div#spree-header {
+  background-color: $color-darkest;
+}
+
+.nav a {
+  font-family: $font-1;
+  font-weight: $font-1-bold;
+}

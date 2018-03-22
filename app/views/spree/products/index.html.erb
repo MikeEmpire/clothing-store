@@ -1,3 +1,4 @@
+<%= render partial: 'spree/shared/search' %>
 <% if "spree/products" == params[:controller] && @taxon || @taxonomies.present? %>
   <% content_for :sidebar do %>
     <div data-hook="homepage_sidebar_navigation">

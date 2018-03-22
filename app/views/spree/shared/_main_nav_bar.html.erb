@@ -1,7 +1,12 @@
 <nav class="col-md-12">
   <div id="main-nav-bar" class="navbar">
+    <figure id="logo" class="col-md-4 col-sm-3" data-hook>
+      <%= logo %>
+    </figure>
+    <%= render partial: 'spree/shared/nav_bar' %>
     <ul class="nav navbar-nav" data-hook>
       <li id="home-link" data-hook><%= link_to Spree.t(:home), spree.root_path %></li>
+      <li data-hook><%= link_to Spree.t(:about), spree.about_path %></li>
     </ul>
     <ul class="nav navbar-nav navbar-right" data-hook>
       <li id="link-to-cart" data-hook>
