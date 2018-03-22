@@ -1,0 +1,11 @@
+@import '../modules/typography';
+@import "../../base";;
+$radius: 0px;
+
+
+a.btn.btn-primary {
+  border-radius: $radius;
+  font-family:  $font-1;
+  background-color: black;
+  color: $color-2;
+}

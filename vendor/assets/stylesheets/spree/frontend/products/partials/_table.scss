@@ -1,0 +1,17 @@
+@import "../../base";
+
+.table {
+  width: $half-width;
+  max-width: $full-width;
+  margin-bottom: 20px;
+  clear: left;
+}
+
+.panel.panel-default {
+  border: none;
+}
+
+.panel-footer {
+  background: transparent;
+  padding: 0;
+}

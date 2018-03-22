@@ -1,0 +1,27 @@
+
+@import "../modules/typography";;
+@import "../../base";
+
+span.price.selling.lead {
+  display: inline-flex;
+  font-family: $font-2;
+  font-weight: $font-2-bold;
+  margin-bottom: 8px;
+  float: $font-left;
+  width: $full-width;
+}
+
+span.info {
+  text-align: $font-left;
+  width: $full-width;
+  font-family:  $font-2;
+  font-size: $font-small;
+  font-weight: $font-1-bold;
+}
+
+p.price {
+  text-align: $font-right;
+  width: $full-width;
+  font-family: $font-2;
+  font-weight: $font-2-bold;
+}
