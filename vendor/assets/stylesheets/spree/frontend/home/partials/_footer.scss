@@ -1,0 +1,69 @@
+@import "../../base";
+@import "//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css";
+/*FOOTER START///////////////////*/
+div#footer {
+  padding: 0;
+}
+
+.footer {
+  padding: 50px 0 20px 0;
+  background-color: $color-darkest;
+  color: $color-2;
+  .title {
+    display: inline-block;
+    padding: 10px;
+    text-align: left;
+    color: #fff;
+    font-size: 25px;
+  }
+  .social-icon {
+    padding: 0px;
+    margin: 0px;
+    a {
+      display: inline-block;
+      color: #fff;
+      font-size: 25px;
+      padding: 5px;
+    }
+  }
+  .acount-icon {
+    a {
+      display: block;
+      color: #fff;
+      font-size: 18px;
+      padding: 5px;
+      text-decoration: none;
+    }
+    .fa {
+      margin-right: 25px;
+    }
+  }
+  .category a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 1px;
+    border-radius: 4px;
+    margin-top: 6px;
+    background-color: black;
+    border: solid 1px #fff;
+  }
+  .payment {
+    margin: 0px;
+    padding: 0px;
+    padding-top: 15%;
+    list-style-type: none;
+    li {
+      list-style-type: none;
+      a {
+        text-decoration: none;
+        display: inline-block;
+        color: #fff;
+        float: left;
+        font-size: 25px;
+        padding: 10px 10px;
+      }
+    }
+  }
+}

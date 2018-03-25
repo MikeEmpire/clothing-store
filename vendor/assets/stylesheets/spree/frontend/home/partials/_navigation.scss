@@ -6,19 +6,60 @@
 }
 
 ul.nav.navbar-nav {
-  display: inline-block;
+  display: $nav-display;
   float: none;
 }
 
+ul#nav-bar {
+  position: relative;
+  right: 8%;
+}
+
 .nav > li {
-  display: inline-block;
+  display: $nav-display;
 }
 
 div#spree-header {
   background-color: $color-darkest;
+  position: fixed;
+  width: $full-width;
+  top: 0;
+  z-index: 10;
 }
 
 .nav a {
   font-family: $font-1;
-  font-weight: $font-1-bold;
+  font-weight: $font-2-bold;
+  text-transform: uppercase;
+}
+
+.sidenav {
+  height: $full-height;
+  width: 0;
+  position: fixed;
+  z-index: $z-ind;
+  top: 0;
+  left: 0;
+  background-color: $color-darkest;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: $font-small;
+    color: $color-4;
+    display: block;
+    transition: 0.3s;
+    &:hover {
+      color: $color-3;
+    }
+  }
+  .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
 }

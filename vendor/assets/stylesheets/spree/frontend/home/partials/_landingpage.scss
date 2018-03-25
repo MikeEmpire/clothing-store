@@ -1,8 +1,7 @@
 @import "../../base";;
 
-.panel.panel-default {
-  border: none;
-  margin-bottom: 70%;
+div#main__content {
+  margin-top: $margin-bottom-top;
 }
 
 .panel-footer {

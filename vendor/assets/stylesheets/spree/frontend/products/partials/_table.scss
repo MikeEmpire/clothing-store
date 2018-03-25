@@ -1,6 +1,13 @@
 @import "../modules/typography";;
 @import "../../base";
 
+#home-page {
+  .panel.panel-default {
+    border: none;
+    margin-bottom: 70%;
+  }
+}
+
 .well {
   background: $bg-1;
   border: none;
@@ -29,11 +36,6 @@ td {
 
 input#quantity {
   margin: $dbl-margin 0;
-}
-
-.panel.panel-default {
-  border: none;
-  margin-bottom: 70%;
 }
 
 .panel-footer {

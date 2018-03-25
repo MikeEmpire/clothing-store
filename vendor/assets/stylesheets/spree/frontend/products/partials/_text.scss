@@ -34,5 +34,5 @@ p.price {
 
 h3.product-section-title {
   font-size: $font-medium;
-  @extend h1.product-title;
+  @extend h1, .product-title;
 }

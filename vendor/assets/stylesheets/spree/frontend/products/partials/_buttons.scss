@@ -1,34 +1,150 @@
 @import '../modules/typography';
-@import "../../base";;
-$radius: 0px;
+@import "../../base";
+$radius: 0;
 
 a.btn.btn-primary {
-  background-color: black;
-  border-radius: $radius;
-  border: none;
-  max-height: $btn-max-height;
-  padding-top: 3%;
-  color: $color-lightest;
-  font-family:  $font-2;
-  font-size: $font-smallest;
-  letter-spacing: $font-spacing;
-  text-transform: capitalize;
+	background-color: black;
+	border-radius: $radius;
+	border: none;
+	max-height: $btn-max-height;
+	padding-top: 3%;
+	color: $color-lightest;
+	font-family: $font-2;
+	font-size: $font-smallest;
+	letter-spacing: $font-spacing;
+	text-transform: capitalize;
 }
 
 .input-group-btn {
-  font-size: $font-smallest;
+	font-size: $font-smallest;
 }
 
 #to_cart {
-  display: block;
-  float: left;
-  margin-bottom: $dbl-margin;
+	display: block;
+	float: left;
+	margin-bottom: $dbl-margin;
 }
 
 #add-to-cart-button {
-  font-size: $font-large;
+	font-size: $font-large;
 }
 
 .btn-success {
-  @extend a.btn.btn-primary;
+	@extend a, .btn, .btn-primary;
+}
+
+.cta {
+	background: #fff;
+	font-weight: bold;
+	border-radius: 25px;
+	line-height: 50px;
+	height: 50px;
+	width: 170px;
+	text-align: center;
+	transition: width 0.2s ease-in-out;
+	cursor: pointer;
+
+	.hide {
+		display: none;
+	}
+
+	form {
+		display: flex;
+	}
+	// I know, I know.
+
+	span {
+		opacity: 0;
+		width: 100%;
+		text-align: center;
+		animation: fadeIn 0.3s ease-in-out;
+		animation-delay: 0.2s;
+		animation-fill-mode: forwards;
+	}
+
+	.input {
+		display: none;
+		opacity: 0;
+		flex: 3;
+		text-align: left;
+
+		input {
+			border: 0;
+			width: 240px;
+			height: 45px;
+			margin: 0 0 0 25px;
+			outline: none;
+			color: $fg;
+		}
+	}
+
+	.button {
+		display: none;
+		opacity: 0;
+		flex: 1;
+
+		button {
+			outline: none;
+			float: right;
+			padding: 0 15px;
+			height: 40px;
+			background: $bg;
+			border-radius: 25px;
+			color: #fff;
+			border: 0;
+			margin: 5px;
+			cursor: pointer;
+			transition: all 0.2s ease-in-out;
+
+			&:disabled {
+				color: #FC9F9D;
+				opacity: 0.8;
+			}
+		}
+	}
+
+	&.sent {
+		cursor: default;
+	}
+
+	&.active {
+		width: 350px;
+		text-align: left;
+		transition: width 0.2s ease-in-out;
+		cursor: default;
+
+		span {
+			display: none;
+		}
+
+		.button,
+		.input {
+			display: block;
+			animation: fadeIn 0.3s ease-in-out;
+			animation-delay: 0.1s;
+			animation-fill-mode: forwards;
+		}
+	}
+}
+// Fade + slight zoom
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+		transform: scale(.7);
+	}
+
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+.centerMe {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+::-webkit-input-placeholder {
+	color: #FCD5D3;
 }
