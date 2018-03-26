@@ -15,15 +15,15 @@
       <%= render partial: 'spree/shared/nav_bar' %>
       <div class="row" data-hook>
         <%= breadcrumbs(@taxon) %>
-
         <div id="content" class="<%= !content_for?(:sidebar) ? "col-sm-12" : "col-sm-12 col-md-12" %>" data-hook>
           <%= flash_messages %>
           <%= yield %>
         </div>
-
         <%= yield :templates %>
       </div>
     </div>
-    <%= render partial: 'spree/shared/footer' %>
+    <div class="row">
+      <%= render partial: 'spree/shared/footer' %>
+    </div>
   </body>
 </html>
