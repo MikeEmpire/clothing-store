@@ -1,0 +1,21 @@
+@import "../../base";
+@import "../../products/modules/typography";
+
+#about__content {
+  height: 25em;
+  margin-bottom: $margin-bottom-top;
+  #about__picture {
+    background: image-url('about-pg-bg2.jpg') no-repeat center center;
+    height: -webkit-fill-available;
+    width: $half-width;
+  }
+  h1 {
+    font-family: $font-1;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  p {
+    font-family: $font-2;
+    text-transform: uppercase;
+  }
+}

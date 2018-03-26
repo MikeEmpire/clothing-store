@@ -56,16 +56,11 @@ div#footer {
     margin: 0px;
     padding: 0px;
     list-style-type: none;
-    li {
-      list-style-type: none;
-      a {
-        text-decoration: none;
-        display: inline-block;
-        color: #fff;
-        float: left;
-        font-size: 25px;
-        padding: 10px 10px;
-      }
+    a {
+      display: inline-block;
+      color: #fff;
+      font-size: 25px;
+      padding: 5px;
     }
   }
 }
