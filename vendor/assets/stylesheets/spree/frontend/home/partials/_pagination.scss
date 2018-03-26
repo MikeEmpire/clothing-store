@@ -1,0 +1,16 @@
+@import "../../base";
+@import "../../products/modules/typography";
+
+.pagination {
+  li.page.active {
+    border: none;
+    background-color: transparent;
+    color: $color-3;
+    a {
+      border-radius: 20px;
+    }
+  }
+  li > a {
+    border: none;
+  }
+}

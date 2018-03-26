@@ -1,4 +1,5 @@
 @import "../../base";
+@import "../../products/modules/typography";
 @import "//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css";
 /*FOOTER START///////////////////*/
 div#footer {
@@ -11,6 +12,8 @@ div#footer {
   color: $color-2;
   .title {
     display: inline-block;
+    font-family: $font-1;
+    font-weight: $font-1-bold;
     padding: 10px;
     text-align: left;
     color: #fff;
@@ -52,7 +55,6 @@ div#footer {
   .payment {
     margin: 0px;
     padding: 0px;
-    padding-top: 15%;
     list-style-type: none;
     li {
       list-style-type: none;
