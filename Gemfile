@@ -24,6 +24,8 @@ gem 'spree_gateway', '~> 3.3'
 gem 'pg'
 
 gem 'spree_slider', github: 'spree-contrib/spree_slider'
+gem 'spree_mail_settings', github: 'spree-contrib/spree_mail_settings'
+gem 'spree_paypal_express', github: 'spree-contrib/better_spree_paypal_express'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'

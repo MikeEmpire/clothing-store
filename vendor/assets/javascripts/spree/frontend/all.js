@@ -11,3 +11,4 @@
 
 //= require_tree .
 //= require spree/frontend/spree_simple_sales
+//= require spree/frontend/spree_paypal_express
