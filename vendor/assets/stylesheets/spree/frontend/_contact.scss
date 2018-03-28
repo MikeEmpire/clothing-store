@@ -1,0 +1,37 @@
+@import "base";
+@import "./products/modules/typography";
+#content h1 {
+  font-family: $font-1;
+  font-weight: $font-1-bold;
+  text-align: center;
+}
+#new_contact_us_contact {
+  text-align: center;
+  p {
+    display: inline-block;
+    width: 40%;
+    &:nth-child(5) {
+      width: 81%;
+    }
+    &:nth-child(6) {
+      @extend :nth-child(5)
+    }
+    &:last-child input {
+      background-color: black;
+      color: white;
+      font-family: $font-2;
+    }
+    label {
+      font-family: $font-2;
+    }
+    textarea {
+      height: 13em;
+    }
+    input {
+      background-color: #f4f4f4;
+      border: 0 none;
+      border-radius: 0px;
+      max-width: 100%;
+    }
+  }
+}

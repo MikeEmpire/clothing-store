@@ -13,3 +13,9 @@ $half-width: 50%;
 $margin-bottom-top: 10%;
 $nav-display: inline-block;
 $z-ind: 1;
+
+@mixin input {
+  background-color: #f4f4f4;
+  border: 0 none;
+  max-width: 100%;
+}

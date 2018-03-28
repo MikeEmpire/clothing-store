@@ -12,7 +12,7 @@ Rails.application.routes.draw do
     get "/home" => "home#home"
     get "/sale" => "home#sale"
     get "/about" => "home#about"
-    get "/contact" => "home#contact"
+    get "/contact" => "contacts#new"
   end
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

@@ -7,10 +7,13 @@
     background-color: transparent;
     color: $color-3;
     a {
+      background-color: $color-darkest;
       border-radius: 20px;
     }
   }
   li > a {
     border: none;
+    color: $color-darkest;
+    font-family: $font-2;
   }
 }
