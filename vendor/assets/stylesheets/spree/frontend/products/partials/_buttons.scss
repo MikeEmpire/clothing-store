@@ -15,6 +15,10 @@ a.btn.btn-primary {
 	text-transform: capitalize;
 }
 
+button#checkout-link {
+    font-size: inherit;
+}
+
 .input-group-btn {
 	font-size: $font-smallest;
 }

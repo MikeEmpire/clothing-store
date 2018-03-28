@@ -12,7 +12,6 @@
     <%= render partial: 'spree/shared/trackers/segment/initializer.js' %>
     <%= render partial: 'spree/shared/header' %>
     <div id="main__content">
-      <%= render partial: 'spree/shared/nav_bar' %>
       <div class="row" data-hook>
         <%= breadcrumbs(@taxon) %>
         <div id="content" class="<%= !content_for?(:sidebar) ? "" : "col-sm-12 col-md-12" %>" data-hook>

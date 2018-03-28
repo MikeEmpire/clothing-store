@@ -11,7 +11,12 @@ ul.nav.navbar-nav {
 }
 
 ul#nav-bar {
+  padding-left: 10px;
   position: relative;
+  a {
+    color: $color-lightest;
+    border-radius: 20px;
+  }
 }
 
 .nav > li {
@@ -30,35 +35,8 @@ div#spree-header {
   font-family: $font-1;
   font-weight: $font-2-bold;
   text-transform: uppercase;
-}
-
-.sidenav {
-  height: $full-height;
-  width: 0;
-  position: fixed;
-  z-index: $z-ind;
-  top: 0;
-  left: 0;
-  background-color: $color-darkest;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-  a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: $font-small;
-    color: $color-4;
-    display: block;
-    transition: 0.3s;
-    &:hover {
-      color: $color-3;
-    }
-  }
-  .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
+  transition: 0.2s all ease;
+  &:hover {
+    color: $color-4 !important;
   }
 }

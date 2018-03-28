@@ -4,18 +4,28 @@
 #about__content {
   height: 25em;
   margin-bottom: $margin-bottom-top;
-  #about__picture {
-    background: image-url('about-pg-bg2.jpg') no-repeat center center;
-    height: -webkit-fill-available;
-    width: $half-width;
+  #about__page__header {
+    background: image-url('about-pg-bg2.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 11em;
+  }
+  #about__page__body {
+    background: image-url('about-page-bg1.jpg') no-repeat center center fixed;
+    @extend #about__page__header;
+    height: 25em;
   }
   h1 {
     font-family: $font-1;
-    font-weight: 600;
+    font-weight: $font-1-bold;
+    text-align: left;
     text-transform: uppercase;
   }
   p {
     font-family: $font-2;
+    padding: 0 10px;
     text-transform: uppercase;
   }
 }

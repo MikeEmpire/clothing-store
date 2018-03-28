@@ -2,7 +2,19 @@
 @media (min-width:320px) {
   /* smartphones, iPhone, portrait 480x320 phones */
   div#main__content {
-    margin-top: 50%;
+    margin-top: 65%;
+  }
+}
+@media (min-width:375px) {
+  /* smartphones, iPhone, portrait 480x320 phones */
+  div#main__content {
+    margin-top: 45%;
+  }
+}
+@media (min-width:425px) {
+  /* smartphones, iPhone, portrait 480x320 phones */
+  div#main__content {
+    margin-top: 41%;
   }
 }
 @media (min-width:481px) {
