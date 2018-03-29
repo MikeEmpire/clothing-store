@@ -5,3 +5,10 @@
 .hidden {
   display: none;
 }
+
+#login {
+  .new_spree_user #password-credentials input.btn.btn-lg.btn-success.btn-block {
+    padding-top: 1%;
+    font-size: larger;
+  }
+}
