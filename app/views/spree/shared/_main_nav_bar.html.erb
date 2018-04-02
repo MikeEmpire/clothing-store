@@ -4,9 +4,9 @@
       <%= logo %>
     </figure>
     <ul class="nav navbar-nav" data-hook>
-      <li id="home-link" data-hook><%= link_to Spree.t(:home), spree.home_path %></li>
+      <li id="home-link" data-hook><%= link_to Spree.t(:home), spree.root_path %></li>
       <li data-hook><%= link_to Spree.t(:about), spree.about_path %></li>
-      <li data-hook><%= link_to Spree.t(:shop), spree.root_path %></li>
+      <li data-hook><%= link_to Spree.t(:shop), spree.products_path %></li>
       <li data-hook><%= link_to Spree.t(:contact), spree.contact_us_path %></li>
     </ul>
     <ul class="nav navbar-nav navbar-right" data-hook>

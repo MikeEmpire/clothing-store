@@ -9,6 +9,8 @@ Rails.application.routes.draw do
   # the default of "spree".
   mount Spree::Core::Engine, at: '/'
   Spree::Core::Engine.routes.draw do
+    root "home#home"
+    get "/products" => "home#index"
     get "/home" => "home#home"
     get "/sale" => "home#sale"
     get "/about" => "home#about"

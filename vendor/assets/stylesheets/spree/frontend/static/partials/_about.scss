@@ -5,16 +5,19 @@
   height: 25em;
   margin-bottom: $margin-bottom-top;
   #about__page__header {
-    background: image-url('about-pg-bg2.jpg') no-repeat center center fixed;
+    background: asset-url('kids_wearing_bsixb.jpg');
+    background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-repeat: no-repeat;
     height: 11em;
   }
   #about__page__body {
-    background: image-url('about-page-bg1.jpg') no-repeat center center fixed;
-    @extend #about__page__header;
+    background: asset-url('lou_williams_bsixb.jpg');
+    background-position: center;
+    background-size: cover;
     height: 25em;
   }
   h1 {

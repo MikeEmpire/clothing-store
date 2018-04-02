@@ -1,6 +1,29 @@
 @import "../../base";;
+@import "../../products/modules/typography";
 
 .panel-footer {
   background: $bg-1;
   padding: 0;
+}
+
+#video_bg {
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  video {
+    height: 100%;
+    width: 100%;
+  }
+  #home__text {
+    background-color: rgba(0, 0, 0, 0.9);;
+    left: 8%;
+    position: absolute;
+    top: 1%;
+    h4 {
+      color: $color-lightest;
+      font-family: $font-3;
+      font-size: -webkit-xxx-large;
+      padding: 14px;
+    }
+  }
 }
