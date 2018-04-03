@@ -15,6 +15,7 @@ Rails.application.routes.draw do
     get "/sale" => "home#sale"
     get "/about" => "home#about"
     get "/contact" => "contacts#new"
+    get "/.well-known/acme-challenge/2PVLfEDeZ04d7nGuhtj_N81ARgmeQKALgOSTtTa4mfw" => "home#ssl"
   end
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
