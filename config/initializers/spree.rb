@@ -10,6 +10,36 @@
 # In order to initialize a setting do:
 # config.setting_name = 'new value'
 Spree.config do |config|
+  attachment_config = {
+
+    s3_credentials: {
+      access_key_id:     ENV['AWS_ACCESS_KEY_ID'],
+      secret_access_key: ENV['AWS_SECRET_ACCESS_KEY'],
+      bucket:            ENV['AWS_S3_BUCKET']
+    },
+
+    storage:        :s3,
+    s3_region:      ENV['AWS_S3_REGION'],
+    s3_headers:     { "Cache-Control" => "max-age=31557600" },
+    s3_protocol:    "https",
+    bucket:         ENV['AWS_S3_BUCKET'],
+    url:            ":s3_domain_url",
+
+    styles: {
+      mini: '100x100>', # thumbs under image
+      small: '400x400#', # images on category view
+      product: '800x800#', # full product image
+      large: '1200x1200#' # light box image
+    },
+
+    path:           "/:class/:id/:style/:basename.:extension",
+    default_url:    "/:class/:id/:style/:basename.:extension",
+    default_style:  "product"
+  }
+
+  attachment_config.each do |key, value|
+    Spree::Image.attachment_definitions[:attachment][key.to_sym] = value
+  end
   # Example:
   # Uncomment to stop tracking inventory levels in the application
   # config.track_inventory_levels = false
