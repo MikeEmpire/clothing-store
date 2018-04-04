@@ -16,20 +16,22 @@
     height: 41em;
   }
   #about__page__body {
-    background: asset-url('lou_williams_bsixb.jpg');
-    background-position: center;
+    background: asset-url('aboutPageBody.png');
+    background-position: top;
     background-size: cover;
-    height: 25em;
+    height: 35em;
   }
   h1 {
     font-family: $font-1;
     font-weight: $font-1-bold;
     text-align: left;
     text-transform: uppercase;
+
   }
   p {
     font-family: $font-2;
     padding: 0 10px;
     text-transform: uppercase;
+    text-align: center;
   }
 }
