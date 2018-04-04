@@ -17,7 +17,7 @@ gem 'uglifier', '>= 1.3.0'
 # gem 'therubyracer', platforms: :ruby
 gem 'spree', '~> 3.4.4'
 gem 'spree_auth_devise', '~> 3.3'
-gem 'aws-sdk'
+gem 'aws-sdk', '< 3.0'
 gem 'figaro'
 
 gem 'spree_slider', github: 'spree-contrib/spree_slider'
