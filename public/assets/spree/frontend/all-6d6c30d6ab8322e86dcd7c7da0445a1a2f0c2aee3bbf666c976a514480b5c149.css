@@ -8945,10 +8945,9 @@ table#line-items > tbody > tr > td.order-qty, table#line-items > tfoot > tr > td
     margin-top: 4%;
   }
 }
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,700,700i|Source+Code+Pro:400,500|Roboto+Condensed");
-@font-face {
-  font-family: "Sanctuary Playground";
-  src: url("/assets/Sanctuary_Playground");
+/* line 2, /Users/afamolie/projects/rails-work/clothing-line/vendor/assets/stylesheets/spree/frontend/admin/partials/shirts.scss */
+.admin img {
+  width: 100% !important;
 }
 /* line 4, /Users/afamolie/projects/rails-work/clothing-line/vendor/assets/stylesheets/spree/frontend/checkout/partials/_buttons.scss */
 ul.nav-pills li {
@@ -8989,12 +8988,7 @@ td.cart-item-quantity {
   font-size: larger;
 }
 @import url("https://fonts.googleapis.com/css?family=Raleway|Source+Code+Pro");
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,700,700i|Source+Code+Pro:400,500|Roboto+Condensed");
 @import "//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css";
-@font-face {
-  font-family: "Sanctuary Playground";
-  src: url("/assets/Sanctuary_Playground");
-}
 /*FOOTER START///////////////////*/
 /* line 5, /Users/afamolie/projects/rails-work/clothing-line/vendor/assets/stylesheets/spree/frontend/home/partials/_footer.scss */
 div#footer {
@@ -9066,11 +9060,6 @@ div#footer {
   font-size: 25px;
   padding: 5px;
 }
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,700,700i|Source+Code+Pro:400,500|Roboto+Condensed");
-@font-face {
-  font-family: "Sanctuary Playground";
-  src: url("/assets/Sanctuary_Playground");
-}
 /* line 4, /Users/afamolie/projects/rails-work/clothing-line/vendor/assets/stylesheets/spree/frontend/home/partials/_landingpage.scss */
 .panel-footer {
   background: transparent;
@@ -9098,14 +9087,9 @@ div#footer {
 /* line 22, /Users/afamolie/projects/rails-work/clothing-line/vendor/assets/stylesheets/spree/frontend/home/partials/_landingpage.scss */
 #video_bg #home__text h4 {
   color: #feffff;
-  font-family: "Raleway";
+  font-family: "Shadows Into Light";
   font-size: -webkit-xxx-large;
   padding: 14px;
-}
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,700,700i|Source+Code+Pro:400,500|Roboto+Condensed");
-@font-face {
-  font-family: "Sanctuary Playground";
-  src: url("/assets/Sanctuary_Playground");
 }
 /* line 4, /Users/afamolie/projects/rails-work/clothing-line/vendor/assets/stylesheets/spree/frontend/home/partials/_navigation.scss */
 #main-nav-bar {
@@ -9154,11 +9138,6 @@ div#spree-header {
 .nav a:hover {
   color: #2b7a78 !important;
 }
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,700,700i|Source+Code+Pro:400,500|Roboto+Condensed");
-@font-face {
-  font-family: "Sanctuary Playground";
-  src: url("/assets/Sanctuary_Playground");
-}
 /* line 5, /Users/afamolie/projects/rails-work/clothing-line/vendor/assets/stylesheets/spree/frontend/home/partials/_pagination.scss */
 .pagination li.page.active {
   border: none;
@@ -9176,22 +9155,16 @@ div#spree-header {
   color: #090c14;
   font-family: "Source Code Pro";
 }
+/* line 1, /Users/afamolie/projects/rails-work/clothing-line/vendor/assets/stylesheets/spree/frontend/orders/partials/_order.scss */
+div#order {
+  padding: 0 5%;
+}
 /* line 2, /Users/afamolie/projects/rails-work/clothing-line/vendor/assets/stylesheets/spree/frontend/products.scss */
 hr {
   margin-bottom: 2px;
   margin-top: 0;
   width: 100%;
   border-top: 2px solid black;
-}
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,700,700i|Source+Code+Pro:400,500|Roboto+Condensed");
-@font-face {
-  font-family: "Sanctuary Playground";
-  src: url("/assets/Sanctuary_Playground");
-}
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,700,700i|Source+Code+Pro:400,500|Roboto+Condensed");
-@font-face {
-  font-family: "Sanctuary Playground";
-  src: url("/assets/Sanctuary_Playground");
 }
 /* line 5, /Users/afamolie/projects/rails-work/clothing-line/vendor/assets/stylesheets/spree/frontend/products/partials/_buttons.scss */
 a.btn.btn-primary, .btn-success {
@@ -9345,11 +9318,6 @@ button#checkout-link {
 ::-webkit-input-placeholder {
   color: #FCD5D3;
 }
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,700,700i|Source+Code+Pro:400,500|Roboto+Condensed");
-@font-face {
-  font-family: "Sanctuary Playground";
-  src: url("/assets/Sanctuary_Playground");
-}
 /* line 4, /Users/afamolie/projects/rails-work/clothing-line/vendor/assets/stylesheets/spree/frontend/products/partials/_products.scss */
 .product__image {
   width: 50%;
@@ -9364,23 +9332,22 @@ button#checkout-link {
 #product-details #main-image {
   border: none;
 }
-/* line 16, /Users/afamolie/projects/rails-work/clothing-line/vendor/assets/stylesheets/spree/frontend/products/partials/_products.scss */
+/* line 15, /Users/afamolie/projects/rails-work/clothing-line/vendor/assets/stylesheets/spree/frontend/products/partials/_products.scss */
+#product-details #main-image img {
+  width: 100%;
+}
+/* line 19, /Users/afamolie/projects/rails-work/clothing-line/vendor/assets/stylesheets/spree/frontend/products/partials/_products.scss */
 #product-details ul li {
   list-style: none;
 }
-/* line 18, /Users/afamolie/projects/rails-work/clothing-line/vendor/assets/stylesheets/spree/frontend/products/partials/_products.scss */
+/* line 21, /Users/afamolie/projects/rails-work/clothing-line/vendor/assets/stylesheets/spree/frontend/products/partials/_products.scss */
 #product-details ul li label {
   font-family: "Source Code Pro";
   font-weight: 500;
 }
-/* line 23, /Users/afamolie/projects/rails-work/clothing-line/vendor/assets/stylesheets/spree/frontend/products/partials/_products.scss */
+/* line 26, /Users/afamolie/projects/rails-work/clothing-line/vendor/assets/stylesheets/spree/frontend/products/partials/_products.scss */
 #product-details div#content {
   padding: 0 5%;
-}
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,700,700i|Source+Code+Pro:400,500|Roboto+Condensed");
-@font-face {
-  font-family: "Sanctuary Playground";
-  src: url("/assets/Sanctuary_Playground");
 }
 /* line 5, /Users/afamolie/projects/rails-work/clothing-line/vendor/assets/stylesheets/spree/frontend/products/partials/_table.scss */
 #home-page .panel.panel-default {
@@ -9428,11 +9395,6 @@ input#quantity {
   background: transparent;
   padding: 0;
 }
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,700,700i|Source+Code+Pro:400,500|Roboto+Condensed");
-@font-face {
-  font-family: "Sanctuary Playground";
-  src: url("/assets/Sanctuary_Playground");
-}
 /* line 5, /Users/afamolie/projects/rails-work/clothing-line/vendor/assets/stylesheets/spree/frontend/products/partials/_text.scss */
 h1.product-title, h3.product-section-title {
   font-family: "Source Code Pro";
@@ -9471,11 +9433,6 @@ p.price {
 h3.product-section-title {
   font-size: medium;
 }
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,700,700i|Source+Code+Pro:400,500|Roboto+Condensed");
-@font-face {
-  font-family: "Sanctuary Playground";
-  src: url("/assets/Sanctuary_Playground");
-}
 /* line 4, /Users/afamolie/projects/rails-work/clothing-line/vendor/assets/stylesheets/spree/frontend/static/partials/_about.scss */
 #about__content {
   height: 25em;
@@ -9483,39 +9440,36 @@ h3.product-section-title {
 }
 /* line 7, /Users/afamolie/projects/rails-work/clothing-line/vendor/assets/stylesheets/spree/frontend/static/partials/_about.scss */
 #about__content #about__page__header {
-  background: url(/assets/kids_wearing_bsixb-90403903153b654f449621e552be51a54b33779399e56d229a48858bf16b7453.jpg);
+  background: url(/assets/kidswearingbsixb-61471803dc8380794db493a2db7a84ac456f341e33c7cf6cd17aeb9c186a3d80.png);
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 11em;
+  height: 41em;
 }
-/* line 17, /Users/afamolie/projects/rails-work/clothing-line/vendor/assets/stylesheets/spree/frontend/static/partials/_about.scss */
+/* line 18, /Users/afamolie/projects/rails-work/clothing-line/vendor/assets/stylesheets/spree/frontend/static/partials/_about.scss */
 #about__content #about__page__body {
-  background: url(/assets/lou_williams_bsixb-bc365350758eb3765244d3504915f25251f3be561d01b952fb481e65592d344e.jpg);
-  background-position: center;
+  background: url(/assets/aboutPageBody-2cb403b822627e18ed4a4850ddeafcc38abea9019a78fc56c7533a34aa5b96ef.png);
+  background-position: top;
   background-size: cover;
-  height: 25em;
+  height: 35em;
 }
-/* line 23, /Users/afamolie/projects/rails-work/clothing-line/vendor/assets/stylesheets/spree/frontend/static/partials/_about.scss */
+/* line 24, /Users/afamolie/projects/rails-work/clothing-line/vendor/assets/stylesheets/spree/frontend/static/partials/_about.scss */
 #about__content h1 {
   font-family: "Raleway";
   font-weight: 700;
   text-align: left;
   text-transform: uppercase;
 }
-/* line 29, /Users/afamolie/projects/rails-work/clothing-line/vendor/assets/stylesheets/spree/frontend/static/partials/_about.scss */
+/* line 31, /Users/afamolie/projects/rails-work/clothing-line/vendor/assets/stylesheets/spree/frontend/static/partials/_about.scss */
 #about__content p {
   font-family: "Source Code Pro";
   padding: 0 10px;
   text-transform: uppercase;
-}
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,700,700i|Source+Code+Pro:400,500|Roboto+Condensed");
-@font-face {
-  font-family: "Sanctuary Playground";
-  src: url("/assets/Sanctuary_Playground");
+  text-align: center;
 }
 /* line 3, /Users/afamolie/projects/rails-work/clothing-line/vendor/assets/stylesheets/spree/frontend/static/partials/_contact.scss */
 #content h1 {
