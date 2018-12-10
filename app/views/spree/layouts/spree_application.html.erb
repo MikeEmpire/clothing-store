@@ -11,7 +11,7 @@
     <%= render partial: 'spree/shared/google_analytics.js' %>
     <%= render partial: 'spree/shared/trackers/segment/initializer.js' %>
     <%= render partial: 'spree/shared/header' %>
-    <div id="main__content">
+    <div id="main__content" class="page-content">
       <div class="row" data-hook>
         <%= breadcrumbs(@taxon) %>
         <div id="content" class="<%= !content_for?(:sidebar) ? "" : "col-sm-12 col-md-12" %>" data-hook>

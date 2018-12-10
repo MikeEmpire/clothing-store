@@ -7,7 +7,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require spree/backend
-
+//= require turbolinks
 //= require_tree .
 //= require spree/backend/spree_simple_sales
 //= require spree/backend/spree_paypal_express
